@@ -644,10 +644,10 @@ body {
 .moreSection {
   width: 1200px;
   height: 172px;
-  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  justify-items: center;
+  position: relative;
+  bottom: 120px;
 }
 .moreSection p {
   width: 953px;
@@ -1614,7 +1614,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  border: 1px solid red;
   gap: 300px;
   position: relative;
   top: 100px;
@@ -1632,7 +1631,30 @@ body {
   margin: 0%;
 }
 
+.footer2{
+  width: 1200px;
+  height: 26px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 110px;
+}
 
+.footer2 p{
+  margin: 0%;
+}
+
+.footer3{
+  width: 1200px;
+  height: 52px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 150px;
+}
 
 @media (max-width: 768px){
   
